@@ -1,0 +1,39 @@
+/******************************************************************************
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+console.log('Hello World');
+/*
+const dateShortcode = require('date-shortcode')
+dateShortcode.parse('{YYYYMMDD}', new Date())
+*/
+
+let a=true;
+let b=false;
+let c=true;
+let d=false;
+
+const numero=1;
+const numero2=13;
+const numero3=30;
+
+
+let result = a && b 
+let result2= (a||b)&&(c||d)&&((numero3>=numero2)||(numero<=numero3))
+console.log(`(${a}||${b})&&(${c}||${d})&&((${numero3}>=${numero2})||(${numero}<=${numero3})=${result2}`);
+
+
+let stringy='Alpha'
+stringy+='beto'
+console.log(stringy)
+
+let idade=20
+function status(idade){ statuto = idade>= 18 ? 'adulto':'menor de idade';
+    console.log(statuto)
+}
+status(idade)
+status(numero3)
+status(numero2)
